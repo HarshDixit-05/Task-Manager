@@ -1,0 +1,43 @@
+:root {
+  /* Base Color */
+  --charcoal-blue: #283953;
+  
+  /* Primary Colors */
+  --warm-sand: #F4A261;
+  --teal-green: #2A9D8F;
+  --golden-beige: #E9C46A;
+  
+  /* Secondary Colors */
+  --steel-blue: #3B4F71;
+  --muted-blue-gray: #7289A4;
+  --soft-silver: #B0BEC5;
+  
+  /* Status Colors */
+  --high-priority: #EF476F;
+  --medium-priority: #E9C46A;
+  --completed: #2A9D8F;
+  
+  /* Utility Colors */
+  --white: #ffffff;
+  --light-gray: #F3F4F6;
+  --gray: #D1D5DB;
+  --text-light: #B0BEC5;
+  --text-dark: #283953;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--charcoal-blue);
+  color: var(--white);
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}

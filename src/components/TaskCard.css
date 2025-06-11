@@ -1,0 +1,162 @@
+.task-card {
+  background-color: #3B4F71;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 10px;
+  width: 280px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.task-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  display: flex;
+  align-items: center;
+}
+
+.task-title h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.task-actions i {
+  color: white;
+  cursor: pointer;
+}
+
+.task-description {
+  font-size: 14px;
+  color: #a9b1d6;
+  margin: 10px 0;
+}
+
+.subtasks {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  height: 5px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.subtasks-progress {
+  height: 100%;
+  background-color: #58d68d;
+  border-radius: 4px;
+}
+
+.subtasks-text {
+  font-size: 12px;
+  color: #b0c4de;
+}
+
+.task-tags {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.High {
+  background-color: #EF476F;
+  color: white;
+}
+
+.Medium {
+  background-color: #E9C46A;
+  color: black;
+}
+
+.Low {
+  background-color: #A0AEC0;
+  color: white;
+}
+
+.ToDo {
+  background-color: #6c757d;
+  color: white;
+}
+
+.InProgress {
+  background-color: #007bff;
+  color: white;
+}
+
+.Recurring {
+  background-color: #9b59b6;
+  color: white;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #b0c4de;
+}
+
+.details-btn {
+  background: transparent;
+  border: none;
+  color: #58d68d;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.pomodoro-timer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-top: 30px;
+  padding: 10px;
+  /* background: #1e293b; */
+  color: #fff;
+  border-radius: 8px;
+}
+
+.pomodoro-timer h4 {
+  margin: 5px 0;
+  font-size: 13px !important;
+  font-weight:300;
+  color: #b0c4de;
+}
+
+.pomodoro-timer p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pomodoro-btn {
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.start {
+  background: #58d68c;
+  color: #283953;
+}
+
+.stop {
+  background: #ef476e;
+  color: #283953;
+}

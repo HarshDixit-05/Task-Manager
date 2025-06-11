@@ -1,0 +1,68 @@
+.kanban-board {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(310px, 1fr));
+    gap: 20px;
+  
+    overflow-x: auto;
+    padding: 20px;
+  }
+.kanban-column {
+    background: #3B4F71; /* Steel Blue */
+    border-radius: 8px;
+    padding: 10px;
+    
+  }
+  .column-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  /* Dynamic Column Colors */
+  .todo-header {
+    border: 1px solid #283953; 
+    background: #f4a3612d; /* Warm Sand Orange  */
+    color:#f4a361; }
+  .inprogress-header {
+    border: 1px solid #283953;  
+    background: #ef476e2b;
+    color: #ff5c82; }
+  .completed-header  { 
+    border: 1px solid #283953; 
+    background-color: #06d69e2b;  /* Mint Green */
+    color: #04c491;} /* Steel Blue */
+  
+  /* Task List */
+  .tasks-list {
+    min-height: 100px;
+    /* padding: 10px; */
+  }
+  
+  /* Task Cards */
+  .tasks-card {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px #0000001a;
+    cursor: grab;
+    width: 100%;
+  }
+  
+  /* Dynamic Task Colors */
+.todo-task {
+    background-color:#f4a361 ;
+    color: #283953;
+  }
+.inprogress-task {
+    background: #EF476F; 
+    color: #283953;
+  }
+.completed-task {
+    background: #2A9D8F; /* Teal Green */
+    color: #283953;
+  }
+  

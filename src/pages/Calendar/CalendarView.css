@@ -1,0 +1,36 @@
+.calendar-container {
+  width: 350px;
+  margin: auto;
+}
+.task-badge {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.lists-of-task {
+  margin-top: 10px;
+  padding: 15px;
+  line-height: 2rem;
+}
+.task-item {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.react-calendar__month-view__weekdays{
+  color: black;
+}
+/* Dynamic colors for each task status */
+.todo-task {
+  background-color: #f4a361; /* Orange */
+}
+.inprogress-task {
+  background: #ef476f; /* Red */
+}
+.completed-task {
+  background: #2a9d8f; /* Green */
+}
+
+

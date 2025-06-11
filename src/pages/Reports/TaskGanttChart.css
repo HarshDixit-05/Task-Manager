@@ -1,0 +1,52 @@
+.gantt-chart-container {
+    background-color: #8EA2C6;
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .recharts-wrapper {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .recharts-cartesian-grid line {
+    stroke: #000;
+  }
+  
+  .recharts-cartesian-axis-tick text {
+    fill: #000;
+    font-size: 12px;
+  }
+  
+  .recharts-cartesian-axis-line {
+    stroke: #000;
+  }
+  
+  .recharts-legend-wrapper {
+    bottom: -20px !important;
+  }
+  
+  .recharts-legend-item {
+    color: #000 !important;
+  }
+  
+  .custom-tooltip {
+    background-color: #334155;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px #0000001a;
+    color: #fff;
+  }
+  
+  .custom-tooltip p {
+    margin: 5px 0;
+    font-size: 13px;
+  }
+  
+  .custom-tooltip .task-name {
+    color: #60a5fa;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  

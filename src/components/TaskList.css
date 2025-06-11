@@ -1,0 +1,14 @@
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  justify-content: center;
+  }
+  
+  .no-tasks {
+    color: #b0c4de;
+    text-align: center;
+    font-size: 14px;
+  }
+  
